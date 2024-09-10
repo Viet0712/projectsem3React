@@ -1,0 +1,27 @@
+:root {
+    --primary: #8c9da7;
+    --second: #ffffff;
+    --third: #282929;
+    --box_shadow: 0.2rem 0.2rem 0.2rem rgba(128, 128, 128, 0.407);
+    --color_shadow: rgba(128, 128, 128, 0.407);
+    --fz_small: 0.85rem;
+    --fz_medium: 1rem;
+    --fz_big: 1.5rem;
+    --line: rgba(128, 128, 128, 0.733);
+  
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    // height: auto;
+}
+.link {
+    text-decoration: none;
+    color: black;
+    color: #b2b2b28f;
+}
+.form{
+    width: 50%;
+}

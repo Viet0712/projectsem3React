@@ -1,0 +1,98 @@
+[
+    {
+      "id": 1,
+      "name": "China",
+      "code": "CN",
+      "capital": "Beijing"
+    },
+    {
+      "id": 2,
+      "name": "United States",
+      "code": "US",
+      "capital": "Washington, D.C."
+    },
+    {
+      "id": 3,
+      "name": "Germany",
+      "code": "DE",
+      "capital": "Berlin"
+    },
+    {
+      "id": 4,
+      "name": "Japan",
+      "code": "JP",
+      "capital": "Tokyo"
+    },
+    {
+      "id": 5,
+      "name": "South Korea",
+      "code": "KR",
+      "capital": "Seoul"
+    },
+    {
+      "id": 6,
+      "name": "United Kingdom",
+      "code": "GB",
+      "capital": "London"
+    },
+    {
+      "id": 7,
+      "name": "France",
+      "code": "FR",
+      "capital": "Paris"
+    },
+    {
+      "id": 8,
+      "name": "Netherlands",
+      "code": "NL",
+      "capital": "Amsterdam"
+    },
+    {
+      "id": 9,
+      "name": "Italy",
+      "code": "IT",
+      "capital": "Rome"
+    },
+    {
+      "id": 10,
+      "name": "Canada",
+      "code": "CA",
+      "capital": "Ottawa"
+    },
+    {
+      "id": 11,
+      "name": "Singapore",
+      "code": "SG",
+      "capital": "Singapore"
+    },
+    {
+      "id": 12,
+      "name": "India",
+      "code": "IN",
+      "capital": "New Delhi"
+    },
+    {
+      "id": 13,
+      "name": "Mexico",
+      "code": "MX",
+      "capital": "Mexico City"
+    },
+    {
+      "id": 14,
+      "name": "Brazil",
+      "code": "BR",
+      "capital": "Brasilia"
+    },
+    {
+      "id": 15,
+      "name": "Russia",
+      "code": "RU",
+      "capital": "Moscow"
+    },
+    {
+        "id": 16,
+        "name": "Viet Nam",
+        "code": "VN",
+        "capital": "Ha Noi"
+      }
+  ]

@@ -1,0 +1,195 @@
+.add-product {
+    width: 100%;
+}
+.form-add-product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    .sec1 {
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        width: 100%;
+        background-color: white;
+        border-radius: 1rem;
+        overflow: hidden;
+        .title {
+            width: 100%;
+            font-size: var(--fz_big);
+            font-weight: 600;
+        }
+        .form_group {
+            width: 100%;
+            display: flex;
+            gap: 2rem;
+            label {
+                width: 15%;
+
+                font-weight: 600;
+
+                text-align: right;
+            }
+            .box_img {
+                width: 85%;
+                p {
+                    font-size: var(--fz_small);
+                    color: var(--line);
+                }
+            }
+            .box_name {
+                width: 85%;
+                display: flex;
+                align-items: center;
+
+                border: 0.05rem solid var(--color_shadow);
+                input {
+                    width: 90%;
+                    outline: none;
+                    border: none;
+                    padding: 0 1rem;
+                    height: 2.5rem;
+                    border-right: 0.05rem solid var(--color_shadow);
+                }
+                p {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    width: 10%;
+                }
+            }
+            .box_catelory {
+                width: 85%;
+                display: flex;
+                align-items: center;
+
+                border: 0.05rem solid var(--color_shadow);
+                input {
+                    width: 90%;
+                    outline: none;
+                    border: none;
+                    padding: 0 1rem;
+                    height: 2.5rem;
+                    border-right: 0.05rem solid var(--color_shadow);
+                }
+                i {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    width: 10%;
+                }
+            }
+            .box_description {
+                width: 85%;
+                .description {
+                    .ql-editor {
+                        min-height: 15rem;
+                        max-height: 30rem;
+                        height: fit-content;
+                        overflow-y: scroll;
+                    }
+                }
+            }
+        }
+    }
+    .sec2 {
+        display: flex;
+        // gap: 1rem;
+        width: 100%;
+
+        flex-wrap: wrap;
+        padding: 1rem;
+        background-color: white;
+        border-radius: 1rem;
+        overflow: hidden;
+        .title {
+            width: 100%;
+            font-size: var(--fz_big);
+            font-weight: 600;
+            padding: 0 0 1rem 0;
+        }
+        .form_group {
+            width: 50%;
+
+            padding: 1rem 3rem;
+            display: flex;
+            gap: 1rem;
+            label {
+                width: 30%;
+
+                display: flex;
+                justify-content: right;
+                font-weight: 600;
+            }
+            input {
+                width: 70%;
+
+                height: 3rem;
+                outline: none;
+                border-radius: 0.1rem;
+                padding: 0 1rem;
+                border: 0.05rem solid var(--color_shadow);
+            }
+        }
+    }
+    .sec3 {
+        display: flex;
+        // gap: 1rem;
+        width: 100%;
+
+        flex-wrap: wrap;
+        padding: 1rem;
+        background-color: white;
+        border-radius: 1rem;
+        overflow: hidden;
+        .title {
+            width: 100%;
+            font-size: var(--fz_big);
+            font-weight: 600;
+            padding: 0 0 1rem 0;
+        }
+        .box_btn {
+            width: 100%;
+            .btn_addProperty {
+                padding: 0.5rem 1rem;
+            }
+        }
+
+        table {
+            width: 100%;
+            thead {
+                background-color: var(--color_shadow);
+                th {
+                    padding: 0.5rem;
+                    text-align: center;
+                }
+                th:nth-child(6) {
+                    background-color: white;
+                }
+            }
+            tbody {
+                .table_row {
+                    padding: 1rem 0;
+
+                    td {
+                        padding: 0.8rem 0;
+                        input {
+                            width: 100%;
+                            height: 2rem;
+                            outline: none;
+                            padding: 0 1rem;
+                        }
+                    }
+                    td:nth-child(6) {
+                        text-align: center;
+                        color: red;
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}
